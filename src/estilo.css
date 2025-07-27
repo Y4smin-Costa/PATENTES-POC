@@ -267,10 +267,10 @@ header nav a:hover {
   min-width: 120px; /* mínimo para botões */
 }
 
-.grupo-areas button:hover {
+/*.grupo-areas button:hover {
   background-color: #ff9f43;
   box-shadow: 0 0.625rem 1.5rem rgba(255, 159, 67, 0.5);
-}
+}*/
 
 .grupo-areas button.ativa {
   background-color: #ff9f43;
