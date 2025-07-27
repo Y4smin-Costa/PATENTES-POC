@@ -1,0 +1,12 @@
+[
+{ 
+    "id": "BR 51 2024 002945 1",
+    "nome": "Informa Diabetes",
+    "resumo": "O Portal Web Informa Diabetes é uma plataforma digital desenvolvida com o objetivo de fornecer informações educativas e promover o autocuidado para pessoas com diabetes tipo 2 e profissionais de saúde. O portal foi construído com base no Design Centrado no Usuário, em três etapas fundamentais: análise de requisitos, proposição de soluções alternativas e criação de protótipos testáveis.",
+    "inventores": ["Florência Gamileira Nascimento", "Shérida Karanini Paz de Oliveira"],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "Concedida",
+    "dataDeposito": "2021-12-15",
+    "infoExtra": "<p>A tecnologia se destaca por oferece uma série de posts informativos abordando temas como alimentação saudável, atividade física, uso de medicamentos, controle das taxas de glicose, entre outros tópicos essenciais para o autocuidado. Além disso, conta com funcionalidades como o “Você sabia?”, um dicionário diabético e um quiz interativo para testar os conhecimentos dos usuários.</p>"
+}
+]
