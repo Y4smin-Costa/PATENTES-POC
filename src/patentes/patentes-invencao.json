@@ -1,3 +1,22 @@
 [
-  
+  {
+  "id": "BR 10 2024 025762 6",
+  "nome": "Método de Síntese de Chalconas Sintéticas (CC-2-F, CC-4-Br, CC-4-Cl, CC-4-OCH3) com Propriedades Ansiolíticas e Anticonvulsivantes",
+  "resumo": "Esta inovação se concentra no método de síntese de chalconas sintéticas com propriedades ansiolíticas e anticonvulsivantes. As chalconas, denominadas CC-2-F, CC-4-BR, CC-4-CL e CC-4-OCH3, foram produzidas e suas propriedades estruturais, espectroscópicas e vibracionais foram investigadas. Estudos in silico e experimentos com o modelo de Zebrafish foram realizados para avaliar suas atividades ansiolíticas e anticonvulsivantes, demonstrando efeitos positivos, como atenuação das convulsões induzidas pelo PTZ, com ação nos receptores 5-HT e GABAA.",
+  "inventores": [
+    "Jane Eire Silva Alencar de Menezes",
+    "Maria Kueirislene Amâncio Ferreira",
+    "Jesyka Macêdo Guedes",
+    "Márcia Machado Marinho",
+    "Emmanuel Silva Marinho",
+    "Hélcio Silva dos Santos",
+    "Antonio Wlisses da Silva",
+    "Maria Geysillene Castro Matos"
+  ],
+  "instituicao": "Fundação Universidade Estadual do Ceará e Universidade Estadual Vale do Acaraú",
+  "natureza": "Em análise",
+  "dataDeposito": "2024-12-10",
+  "infoExtra": "<p>O diferencial dessa inovação reside na síntese e avaliação de chalconas com potenciais efeitos terapêuticos no Sistema Nervoso Central (SNC), especificamente para tratamento de distúrbios ansiolíticos e anticonvulsivantes. A ausência de toxicidade e os resultados positivos observados com o modelo de Zebrafish destacam essas chalconas como promissoras alternativas terapêuticas.</p>"
+}
+
 ]

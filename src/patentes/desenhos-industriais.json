@@ -1,3 +1,16 @@
 [
- 
+ {
+  "id": "BR 30 2024 005366 5",
+  "nome": "Jogo manutenção do PICC",
+  "resumo": "Trata-se de um jogo de perguntas e respostas, simulações de condutas e demonstrações de práticas, desenvolvido para aprimorar o conhecimento dos enfermeiros sobre a manutenção do cateter PICC em pediatria. A tecnologia educativa visa proporcionar um aprendizado dinâmico e engajador.",
+  "inventores": [
+    "Ana Valeska Siebra e Silva",
+    "Janayna Pinheiro Bezerra"
+  ],
+  "instituicao": "Fundação Universidade Estadual do Ceará",
+  "natureza": "Em análise",
+  "dataDeposito": "2024-10-01",
+  "infoExtra": "<p>O diferencial do desenho industrial está no seu formato interativo e prático, que combina teoria e simulações reais, permitindo aos enfermeiros aprender e reforçar as boas práticas na manutenção do cateter PICC de maneira ativa e envolvente.</p>"
+}
+
 ]
