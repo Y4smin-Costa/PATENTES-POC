@@ -13,8 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Estado atual dos filtros e da aba ativa
   let abaAtual = 'patentes';
-  let areasSelecionadas = new Set();
-  let naturezaSelecionadas = new Set();
+  let areasSelecionadas = new Set();      // Para laboratórios
+  let tiposSelecionados = new Set();      // Para patentes
+  let naturezaSelecionadas = new Set();   // Para checkbox natureza
   let textoBusca = '';
 
   // Áreas dos laboratórios
@@ -27,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'ciencias sociais aplicadas'
   ];
 
-  // Tipos de patentes (novos arquivos JSON)
+  // Tipos de patentes (nome dos arquivos e chave do JSON)
   const tiposPatentes = [
     'patentes-invencao',
     'patentes-utilidade',
@@ -70,18 +71,17 @@ document.addEventListener('DOMContentLoaded', () => {
       const resultadosPatentes = await Promise.all(fetchPatentesPromises);
       const resultadosLaboratorios = await Promise.all(fetchLaboratoriosPromises);
 
-      // Junta todos os tipos de patentes em um único array
-      dadosPatentes['todas'] = [];
-      resultadosPatentes.forEach(lista => {
-        dadosPatentes['todas'] = dadosPatentes['todas'].concat(lista);
+      // Armazena dados das patentes por tipo
+      tiposPatentes.forEach((tipo, i) => {
+        dadosPatentes[tipo] = resultadosPatentes[i];
       });
 
-      // Associa os dados de laboratórios às suas respectivas áreas
+      // Armazena dados dos laboratórios por área
       areas.forEach((area, i) => {
         dadosLaboratorios[area] = resultadosLaboratorios[i];
       });
 
-      configurarBotoesAreas();
+      configurarBotoesAreasETipos();
       mostrarResultados();
 
     } catch (erro) {
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Evento para alternar entre abas de patentes e laboratórios
+  // Alterna entre abas e ajusta visibilidade dos filtros
   abas.forEach(botao => {
     botao.addEventListener('click', () => {
       const tipo = botao.dataset.tipo;
@@ -99,7 +99,6 @@ document.addEventListener('DOMContentLoaded', () => {
       abas.forEach(b => b.classList.remove('ativa'));
       botao.classList.add('ativa');
 
-      // Exibe filtros correspondentes à aba ativa
       if (tipo === 'patentes') {
         filtrosPatentes.classList.add('ativo');
         filtrosLaboratorios.classList.remove('ativo');
@@ -109,40 +108,58 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       abaAtual = tipo;
-      areasSelecionadas.clear();
       resetarFiltrosDeArea();
       resetarFiltrosNatureza();
-      configurarBotoesAreas();
+      configurarBotoesAreasETipos();
       mostrarResultados();
     });
   });
 
-  // Configura botões das áreas (somente usados por laboratórios)
-  function configurarBotoesAreas() {
+  // Configura os botões das áreas (laboratórios) ou tipos (patentes)
+  function configurarBotoesAreasETipos() {
     const container = abaAtual === 'patentes' ? filtrosPatentes : filtrosLaboratorios;
     const botoes = container.querySelectorAll('.grupo-areas button');
 
     botoes.forEach(botao => {
       botao.classList.remove('ativa');
       botao.onclick = () => {
-        const area = botao.dataset.area;
-        if (areasSelecionadas.has(area)) {
-          areasSelecionadas.delete(area);
-          botao.classList.remove('ativa');
+        const chave = botao.dataset.area;
+
+        if (abaAtual === 'patentes') {
+          // Controle dos tipos de patentes selecionados
+          if (tiposSelecionados.has(chave)) {
+            tiposSelecionados.delete(chave);
+            botao.classList.remove('ativa');
+          } else {
+            tiposSelecionados.add(chave);
+            botao.classList.add('ativa');
+          }
         } else {
-          areasSelecionadas.add(area);
-          botao.classList.add('ativa');
+          // Controle das áreas de laboratórios selecionadas
+          if (areasSelecionadas.has(chave)) {
+            areasSelecionadas.delete(chave);
+            botao.classList.remove('ativa');
+          } else {
+            areasSelecionadas.add(chave);
+            botao.classList.add('ativa');
+          }
         }
+
         mostrarResultados();
       };
     });
   }
 
-  // Limpa filtros visuais de área
+  // Limpa filtros visuais e dados de seleção das áreas ou tipos
   function resetarFiltrosDeArea() {
     const container = abaAtual === 'patentes' ? filtrosPatentes : filtrosLaboratorios;
     container.querySelectorAll('.grupo-areas button.ativa').forEach(btn => btn.classList.remove('ativa'));
-    areasSelecionadas.clear();
+
+    if (abaAtual === 'patentes') {
+      tiposSelecionados.clear();
+    } else {
+      areasSelecionadas.clear();
+    }
   }
 
   // Limpa checkboxes de natureza
@@ -151,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
     naturezaSelecionadas.clear();
   }
 
-  // Atualiza naturezaSelecionadas ao marcar/desmarcar checkboxes
+  // Atualiza o Set de natureza ao marcar/desmarcar checkboxes
   naturezaCheckboxes.forEach(cb => {
     cb.addEventListener('change', () => {
       naturezaSelecionadas.clear();
@@ -162,20 +179,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Atualiza texto de busca enquanto o usuário digita
+  // Atualiza textoBusca enquanto usuário digita
   searchBar.addEventListener('input', (e) => {
     textoBusca = e.target.value.trim().toLowerCase();
     mostrarResultados();
   });
 
-  // Filtro por natureza
+  // Filtra por natureza (checkboxes)
   function filtrarPorNatureza(item) {
     if (naturezaSelecionadas.size === 0) return true;
     const naturezaItem = item.natureza ? item.natureza.toLowerCase() : '';
     return naturezaSelecionadas.has(naturezaItem);
   }
 
-  // Filtro por nome ou natureza (texto de busca)
+  // Filtra por texto (nome ou natureza)
   function filtrarPorTexto(item) {
     if (!textoBusca) return true;
     const nome = item.nome ? item.nome.toLowerCase() : '';
@@ -187,19 +204,49 @@ document.addEventListener('DOMContentLoaded', () => {
   function mostrarResultados() {
     listaResultados.innerHTML = '';
 
-    const dadosObj = abaAtual === 'patentes' ? dadosPatentes : dadosLaboratorios;
-    const mostrarTodos = areasSelecionadas.size === 0;
-
-    const resultadosFiltrados = [];
-
     if (abaAtual === 'patentes') {
-      const listaPatentes = dadosObj['todas'] || [];
-      listaPatentes.forEach(item => {
-        if (filtrarPorNatureza(item) && filtrarPorTexto(item)) {
-          resultadosFiltrados.push(item);
-        }
+      const dadosObj = dadosPatentes;
+      const mostrarTodos = tiposSelecionados.size === 0;
+      const resultadosFiltrados = [];
+
+      if (mostrarTodos) {
+        // Sem filtros: mostra todas as patentes de todos os tipos
+        tiposPatentes.forEach(tipo => {
+          const listaTipo = dadosObj[tipo] || [];
+          listaTipo.forEach(item => {
+            if (filtrarPorNatureza(item) && filtrarPorTexto(item)) {
+              resultadosFiltrados.push(item);
+            }
+          });
+        });
+      } else {
+        // Com filtro: mostra só os tipos selecionados
+        tiposSelecionados.forEach(tipo => {
+          const listaTipo = dadosObj[tipo] || [];
+          listaTipo.forEach(item => {
+            if (filtrarPorNatureza(item) && filtrarPorTexto(item)) {
+              resultadosFiltrados.push(item);
+            }
+          });
+        });
+      }
+
+      if (resultadosFiltrados.length === 0) {
+        listaResultados.innerHTML = '<li style="color:#666;">Nenhum resultado encontrado.</li>';
+        return;
+      }
+
+      resultadosFiltrados.forEach(item => {
+        const li = criarItemResultado(item);
+        listaResultados.appendChild(li);
       });
+
     } else {
+      // Aba laboratórios (filtra por áreas)
+      const dadosObj = dadosLaboratorios;
+      const mostrarTodos = areasSelecionadas.size === 0;
+      const resultadosFiltrados = [];
+
       if (mostrarTodos) {
         areas.forEach(area => {
           const listaArea = dadosObj[area] || [];
@@ -219,22 +266,20 @@ document.addEventListener('DOMContentLoaded', () => {
           });
         });
       }
-    }
 
-    // Caso não haja resultados
-    if (resultadosFiltrados.length === 0) {
-      listaResultados.innerHTML = '<li style="color:#666;">Nenhum resultado encontrado.</li>';
-      return;
-    }
+      if (resultadosFiltrados.length === 0) {
+        listaResultados.innerHTML = '<li style="color:#666;">Nenhum resultado encontrado.</li>';
+        return;
+      }
 
-    // Cria elementos visuais para os resultados encontrados
-    resultadosFiltrados.forEach(item => {
-      const li = criarItemResultado(item);
-      listaResultados.appendChild(li);
-    });
+      resultadosFiltrados.forEach(item => {
+        const li = criarItemResultado(item);
+        listaResultados.appendChild(li);
+      });
+    }
   }
 
-  // Cria um item da lista de resultados (clique direciona para detalhe.html?id=)
+  // Cria o elemento li para o resultado (link para detalhe)
   function criarItemResultado(item) {
     const li = document.createElement('li');
     li.textContent = item.nome;
@@ -248,7 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return li;
   }
 
-  // Realiza busca ao clicar no botão ou pressionar Enter
+  // Busca via botão ou tecla Enter
   function realizarBusca() {
     const termo = searchBar.value.trim();
     if (termo.length > 0) {
@@ -265,7 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Inicia o carregamento dos dados ao carregar a página
+  // Inicializa carregamento dos dados
   carregarDados();
 
 });
