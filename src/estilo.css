@@ -280,6 +280,8 @@ header nav a:hover {
 
 /* Lista de Resultados */
 .lista-resultados {
+  max-height: clamp(300px, 60vh, 600px); /* define altura máxima */
+  overflow-y: auto; /* permite rolagem vertical */
   background: #ffffff;
   padding: clamp(20px, 3vw, 36px);
   border-radius: 28px;
@@ -287,6 +289,7 @@ header nav a:hover {
   list-style: none;
   margin: 0;
 }
+
 
 .lista-resultados li {
   background-color: #f7f2fb;

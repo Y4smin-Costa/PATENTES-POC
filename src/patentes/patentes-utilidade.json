@@ -1,13 +1,60 @@
-[ 
-    {
-  "id": "",
-  "nome": "Exemplo de Modelo de Utilidade",
-  "resumo": "Aguardando dados dos modelos de utilidade",
-  "inventores": [],
-  "instituicao": "Fundação Universidade Estadual do Ceará",
-  "natureza": "Em análise",
-  "dataDeposito": "",
-  "infoExtra": ""
-}
-
+[
+  {
+    "id": "\nBR 10 2022 018032 6\n",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Fabiano Nadson Magacho Vieira",
+      "José Henrique Leal Cardoso"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "2022-09-09",
+    "infoExtra": "<p>Essa nova forma de construção de curativo autoadesivo propõe-se a facilitar a imobilização rápida e adequada de ponta e da columela nasais, aliviando ainda as forças de compressão sobre o preenchedor injetado na ponta nasal, ao mesmo tempo que permite ao médico e ao paciente acompanharem as possíveis alterações na cor da pele que podem sugerir complicações no pós-procedimento.</p>"
+  },
+  {
+    "id": "BR 20 2017 011451 7",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "denilson de Queiroz Cerdeira",
+      "José Ferreira Nunes",
+      "Cássio Pinheiro de Oliveira",
+      "Jessica de Alencar\nBandeira",
+      "Afonso Barbosa de Souza Neto",
+      "Ana Paula dos Santos Dantas",
+      "Victor Hugo Costa de\nAlbuquerque",
+      "Cristiane Clemente de Mello Salgueiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "2017-05-31",
+    "infoExtra": "<p>Baseando-se em períodos de tempo e posicionamentos da coluna os dispositivos irão enviar avisos ao usuário (vibrações),lembrando-o de corrigir a própria postura. desta forma o usuário adquirirá o hábito de permanecer com a coluna vertebral em posição confortável e ereta. O dispositivo biotecnológico para correção postural apresenta-se então como uma inovação tecnológica que visa auxiliar o tratamento das alterações posturais.</p>"
+  },
+  {
+    "id": "Mu 9101252-0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Benedito Neilson Rolim",
+      "Nélio Batista de Morais"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "2011-06-02",
+    "infoExtra": "<p>Em especial, o presente modelo de utilidade descreve um recipiente de biópsias com borda de segurança para evitar que o conteúdo do recipiente seja derramado.</p>"
+  },
+  {
+    "id": "MU 8701998-1",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Marcilia Pinheiro Da Costa",
+      "Diana Magalhães de Oliveira"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "2007-10-02",
+    "infoExtra": "<p>A tecnologia permite com que não ocorra perdas da formulação e erros na quantificação de fármaco liberado no decorrer do tempo.</p>"
+  }
 ]

@@ -1,12 +1,1382 @@
 [
-{ 
-    "id": "BR 51 2024 002945 1",
-    "nome": "Informa Diabetes",
-    "resumo": "O Portal Web Informa Diabetes é uma plataforma digital desenvolvida com o objetivo de fornecer informações educativas e promover o autocuidado para pessoas com diabetes tipo 2 e profissionais de saúde. O portal foi construído com base no Design Centrado no Usuário, em três etapas fundamentais: análise de requisitos, proposição de soluções alternativas e criação de protótipos testáveis.",
-    "inventores": ["Florência Gamileira Nascimento", "Shérida Karanini Paz de Oliveira"],
+  {
+    "id": "BR 51 2024 005125 ",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Antonio Helder Gomes Leoncio Júnior",
+      "Gustavo Augusto Lima de Campos",
+      "Joaquim Celestino Júnior"
+    ],
     "instituicao": "Fundação Universidade Estadual do Ceará",
-    "natureza": "Concedida",
-    "dataDeposito": "2021-12-15",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>Esta inovação tem aplicação direta na segurança de redes IoT, permitindo uma análise mais eficaz e redução de falsos positivos e negativos, essenciais para ambientes complexos com grande volume de dados.\"</p>"
+  },
+  {
+    "id": "BR 51 2024 005045 0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Diogo Rolim Saraiva dos Santos",
+      "José Peixoto Coelho de Souza",
+      "Joyce Moura Barbosa",
+      "Regina Cláudia Pinheiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>A interface do jogo foi projetada para ser intuitiva e de fácil navegação, com design atraente que representa uma casa e um ambiente universitário típico, onde cada fase apresenta cenários específicos, como o quarto, a biblioteca, a sala de aula, entre outros. Os jogadores devem completar tarefas utilizando as preposições corretas.</p>"
+  },
+  {
+    "id": "BR 51 2024 005044 2",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Diogo Rolim Saraiva dos Santos",
+      "José Peixoto Coelho de Souza",
+      "Joyce Moura Barbosa",
+      "Regina Cláudia Pinheiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>O jogo se destaca por sua abordagem inovadora\ne focada em habilidades e conteúdos específicos, superando as limitações das tecnologias existentes ao oferecer uma\nexperiência de aprendizado interativa, contextualizada e personalizada para estudantes de português como língua\nestrangeira.</p>"
+  },
+  {
+    "id": "BR 51 2024 005043 4",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Carliene Jorge da Silva",
+      "Diogo Rolim Saraiva dos Santos",
+      "José Rogério de Oliveira",
+      "Regina Cláudia Pinheiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>O diferencial da tecnologia está na integração da gamificação com o ensino de habilidades linguísticas. O jogo oferece uma experiência interativa que torna o processo de aprendizado mais dinâmico e motivador.</p>"
+  },
+  {
+    "id": "BR 51 2024 005042 6",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Carliene Jorge da Silva",
+      "Diogo Rolim Saraiva dos Santos",
+      "José Rogério de Oliveira",
+      "Regina Cláudia Pinheiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>A inovação da tecnologica está na utilização de uma abordagem gamificada para ensinar a língua portuguesa de maneira interativa e envolvente. O jogo desafia os alunos a completarem palavras, praticando sílabas ausentes de um trava-língua, o que estimula o desenvolvimento da percepção fonológica e ortográfica de forma ativa.</p>"
+  },
+  {
+    "id": "BR 51 2024 005040 0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Carliene Jorge da Silva",
+      "Diogo Rolim Saraiva dos Santos",
+      "José Rogério de Oliveira",
+      "Regina Cláudia Pinheiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>A utilização de um trava-língua como base para os exercícios permite que os alunos aprimorem a percepção fonológica de forma divertida e interativa. O sistema de desbloqueio de letras a cada fase do jogo, que forma a palavra \"King\" ao final, oferece uma recompensa constante, incentivando o progresso contínuo e mantendo os alunos motivados.</p>"
+  },
+  {
+    "id": "BR 51 2024 005023 0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Francisco Valderlan Jorge Nobre",
+      "Maria Clara Mesquita Moura Ferreira",
+      "Rafael Lopes Gomes",
+      "Silvio Eduardo Sales de Britto Ribeiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará e Rede Nacional de Ensino e Pesquisa",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>A tecnologia integra a coleta de dados em tempo real com a correção automática de falhas, criando uma base de dados robusta para análise preditiva. A utilização dessa tecnologia permite antecipar problemas de desempenho na rede, possibilitando ações preventivas e, portanto, uma gestão mais eficiente e proativa da infraestrutura de rede.</p>"
+  },
+  {
+    "id": "BR 51 2024 005022 1",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Danielle dos Santos Silva",
+      "Francisco Valderlan Jorge Nobre",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará e Rede Nacional de Ensino e Pesquisa",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>Enquanto muitos estudos existentes se concentram em cenários mais simples ou não abordam o contexto realista de provedores de internet, o software aplica uma análise profunda utilizando medições fim-a-fim do PerfSONAR, cobrindo os diversos PoPs da RNP pelo Brasil. A ferramenta não só identifica problemas de desempenho, como congestionamentos e falhas de medição, mas também corrige automaticamente essas falhas, gerando dados mais precisos para análise.</p>"
+  },
+  {
+    "id": "BR 51 2024 005019 1",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Ismayle de Sousa Santos",
+      "Paulo Henrique Mendes Maia",
+      "Walter William Cavalcante de Castro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>Ao transformar o aprendizado de programação em uma experiência interativa e divertida, o jogo quebra as barreiras de complexidade muitas vezes associadas ao ensino de lógica de programação, tornando-o mais atraente e acessível, especialmente para iniciantes.</p>"
+  },
+  {
+    "id": "BR 51 2024 003907 4",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Ismayle de Sousa Santos",
+      "Vitor Monteiro de Novaes Menezes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>A utilização de ranqueamento e análise de dados para classificar e comparar configurações de hardware entre os membros da comunidade torna a plataforma uma ferramenta valiosa para quem deseja otimizar suas máquinas para jogos. Esse modelo de engajamento torna o processo de troca de informações mais dinâmico e atraente, ao mesmo tempo que oferece insights valiosos sobre o desempenho dos equipamentos, atendendo especialmente ao nicho de consumidores gamers em busca de melhores soluções de hardware.</p>"
+  },
+  {
+    "id": "BR 51 2024 003584 2",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Ingrid Guedes Teles Coutinho",
+      "Marx Haron Gomes Barbosa",
+      "Paulo Henrique Mendes Maia"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>O diferencial tecnológico da solução é a utilização das stored procedures como entrada para a geração automática de microsserviços. Ao aproveitar a lógica de negócios já existente no banco de dados, a ferramenta elimina a necessidade de reescrever a aplicação, proporcionando uma migração mais eficiente para arquiteturas de microsserviços.</p>"
+  },
+  {
+    "id": "BR 51 2024 003130 8",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Andrei Freitas Costa Nunes dos Santos",
+      "Ismayle de Sousa Santos"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>O diferencial tecnológico da tecnologia está na integração de recursos de recomendação de livros personalizados, com base nas preferências do usuário. A interface intuitiva permite uma navegação fácil, onde os usuários podem adicionar livros, organizar suas leituras e obter sugestões adequadas ao seu perfil de leitura. Além disso, por ser uma aplicação web, ela oferece a flexibilidade de ser acessada de qualquer dispositivo com acesso à internet, proporcionando uma solução prática e acessível para os amantes da leitura.</p>"
+  },
+  {
+    "id": "BR 51 2024 003129 4",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "José Everardo Bessa Maia",
+      "Silas Santiago Lopes Pereira"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>A ferramente permite a o uso inovador da aprendizagem por múltiplas instâncias, adaptada especificamente para cenários com múltiplas câmeras sobrepostas. Enquanto abordagens tradicionais de detecção de anomalias em vídeo podem se concentrar em imagens de uma única câmera, essa solução leva em conta a complexidade de integrar informações de várias câmeras ao mesmo tempo, ajustando o modelo preditivo para lidar com as interações e sobreposições entre os ângulos de captura.</p>"
+  },
+  {
+    "id": "BR 51 2024 002945 1",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Florência Gamileira Nascimento",
+      "Shérida Karanini Paz de Oliveira"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
     "infoExtra": "<p>A tecnologia se destaca por oferece uma série de posts informativos abordando temas como alimentação saudável, atividade física, uso de medicamentos, controle das taxas de glicose, entre outros tópicos essenciais para o autocuidado. Além disso, conta com funcionalidades como o “Você sabia?”, um dicionário diabético e um quiz interativo para testar os conhecimentos dos usuários.</p>"
-}
+  },
+  {
+    "id": "BR 51 2024 002494 8",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Diogo Rolim Saraiva dos Santos",
+      "Ives Moreira Gomes",
+      "Regina Cláudia Pinheiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>A principal inovação do jogo está em seu formato participativo e interativo, no qual o aluno se envolve ativamente em uma narrativa, exercendo a escrita e leitura em um contexto lúdico e prático. Além disso, a integração de recursos audiovisuais garante acessibilidade e engajamento, tornando o aprendizado mais acessível e dinâmico para os alunos do Ensino Fundamental.</p>"
+  },
+  {
+    "id": "BR 51 2024 002442 5",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Diogo Rolim Saraiva dos Santos",
+      "Ives Moreira Gomes",
+      "Regina Cláudia Pinheiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>O jogo se diferencia dos exemplos como GrafoGame e Craque da Leitura por ir além da repetição de letras e palavras. Ele oferece uma abordagem mais engajante e contextualizada, permitindo que os alunos se envolvam ativamente na criação de textos e participem de uma história interativa.</p>"
+  },
+  {
+    "id": "BR 51 2024 002440 9",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Diogo Rolim Saraiva dos Santos",
+      "Ives Moreira Gomes",
+      "Regina Cláudia Pinheiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>Diferente de outros jogos educativos disponíveis, que se concentram em repetições isoladas de letras e sílabas, o \"Entrando na História\" proporciona uma aprendizagem contextualizada. As atividades de leitura e escrita são realizadas para cumprir objetivos dentro de uma história interativa, criando um ambiente mais engajador e significativo para o aluno.</p>"
+  },
+  {
+    "id": "BR 51 2024 002233 3",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Sandro Roberto Cavalcante Bandeira"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>A tecnologia do aplicativo se destaca pela sua capacidade de integrar a detecção de morte encefálica e o cadastro para doação de órgãos em uma única plataforma móvel, utilizando algoritmos para guiar os profissionais de saúde nos procedimentos médicos.</p>"
+  },
+  {
+    "id": "BR 51 2024 002178 7",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Hugo Firmino Damasceno",
+      "Leonardo Sampaio Rocha"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará e Instituto de Gestão, Redes Tecnológicas e Energias",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>O principal diferencial da tecnologia está em sua capacidade de personalizar o aprendizado de cada aluno de forma dinâmica, com base em seu desempenho. Ao integrar um sistema de recomendação com aprendizagem adaptativa, garante que os conteúdos oferecidos sejam sempre relevantes e direcionados às necessidades específicas do aluno. Essa abordagem permite que os alunos recebam suporte contínuo em áreas de dificuldade, facilitando seu progresso. Além disso, o sistema é capaz de se ajustar automaticamente às mudanças nas necessidades do aluno, proporcionando uma experiência de aprendizagem única e personalizada.</p>"
+  },
+  {
+    "id": "BR 51 2024 001607 4",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Mateus Costa Avelar",
+      "Natália Silva Costa",
+      "Paulo Henrique Mendes Maia",
+      "Sherida Karanini Paz de Oliveira"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>Através de atividades envolventes, o jogo promove mudanças nos comportamentos dos jogadores, incentivando hábitos saudáveis que podem prevenir o desenvolvimento da doença ou melhorar o controle do diabetes. O foco do jogo é fornecer informações importantes de forma acessível e divertida, tornando o aprendizado mais eficiente e agradável para o público jovem.</p>"
+  },
+  {
+    "id": "BR 51 2024 000921 3",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Michael Silva de Souza",
+      "Rafael Lopes Gomes",
+      "Silvio Eduardo Sales de Britto Ribeiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>O diferencial inovador da solução DEA-SQLi está no uso de Expressões Regulares (RegEx) para detectar ataques de SQL Injection de forma rápida e eficiente. Sua arquitetura em Python, Flask e Docker oferece escalabilidade, desempenho e fácil implantação em diversos ambientes.</p>"
+  },
+  {
+    "id": "BR 51 2024 000920 5",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Michael Silva de Souza",
+      "Rafael Lopes Gomes",
+      "Silvio Eduardo Sales de Britto Ribeiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>O diferencial dessa solução está na combinação inteligente de Filtragem por RegEx na Borda com análise de Machine Learning na Nuvem. Essa abordagem híbrida não apenas melhora a eficiência no tempo de resposta, mas também aumenta a precisão da detecção de ataques SQLi, tornando a solução mais escalável e eficaz na identificação de ameaças em tempo real.</p>"
+  },
+  {
+    "id": "BR 51 2024 000782 2",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Francisco Laurindo Costa Junior",
+      "Ismayle de Sousa Santos",
+      "Marcos Patrick Saraiva da Silva",
+      "Matheus de Almeida Esteban",
+      "Renan Mendes Frota",
+      "Rossana Maria de Castro Andrade"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará e Universidade Federal do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>O diferencial dessa tecnologia está no monitoramento em tempo real da localização dos ônibus, oferecendo aos alunos dados atualizados sobre os horários e trajetos dos ônibus. Isso proporciona uma experiência mais prática e eficiente, permitindo um planejamento de deslocamento mais inteligente e preciso dentro do campus.</p>"
+  },
+  {
+    "id": "BR 51 2024 000624 9",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Ariel Lima de Carvalho Portela",
+      "Rafael de Almeida Menezes",
+      "Rafael Lopes Gomes",
+      "Silvio Eduardo Sales de Britto Ribeiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará e Rede Nacional de Ensino e Pesquisa",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>O diferencial dessa tecnologia é a capacidade de modelar séries temporais de forma mais precisa e adaptável, ajustando automaticamente a sazonalidade e removendo ciclos de erro, ao contrário das ferramentas existentes que dependem apenas de reduções automáticas por média móvel.</p>"
+  },
+  {
+    "id": "BR 51 2024 000467 0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Antônio Luiz Martins Maia Filho",
+      "Clélia Santana Reis Damásio",
+      "Dario Brito Calçada",
+      "Dymas de Sousa Cunha",
+      "João Victor de Castro Oliveira",
+      "Leonardo Evangelista Mesquita"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará e Fundação da Universidade Estadual do Piauí",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>O diferencial do aplicativo está na digitalização do Teste do Relógio, que facilita a aplicação e a análise dos resultados, eliminando a necessidade de materiais físicos e permitindo o armazenamento digital dos resultados para acompanhamento contínuo.</p>"
+  },
+  {
+    "id": "BR 51 2024 000466 1",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Antônio Luiz Martins Maia Filho",
+      "Clélia Santana Reis Damásio",
+      "Dario Brito Calçada",
+      "Dymas de Sousa Cunha",
+      "João Victor de Castro Oliveira",
+      "Leonardo Evangelista Mesquita"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará e Fundação da Universidade Estadual do Piauí",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>O principal diferencial do aplicativo está na automatização completa do Mini Exame de Estado Mental, permitindo uma aplicação mais rápida e precisa, com redução de erros humanos durante o processo de coleta e análise dos dados.</p>"
+  },
+  {
+    "id": "BR 51 2024 000414 9",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Antônio Luiz Martins Maia Filho",
+      "Clélia Santana Reis Damásio",
+      "Dario Brito Calçada",
+      "Dymas de Sousa Cunha",
+      "João Victor de Castro Oliveira",
+      "Leonardo Evangelista Mesquita"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará e Fundação da Universidade Estadual do Piauí",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>O diferencial da ferramenta é a automatização da pontuação no Teste de Fluência Verbal, o que torna o processo de análise cognitiva mais rápido e preciso. A solução proporciona um acompanhamento contínuo da saúde cognitiva, permitindo que os profissionais de saúde monitorem o progresso dos idosos de maneira eficiente.</p>"
+  },
+  {
+    "id": "BR 51 2024 000254 5",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Ismayle de Sousa Santos",
+      "Raimundo Angeliano Gonçalves de Sousa"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>A aplicação se destaca por sua abordagem inovadora de integrar gamificação ao controle financeiro, transformando o processo de gestão de finanças pessoais em algo mais interativo e envolvente. Os usuários são incentivados a cumprir metas financeiras e são recompensados à medida que avançam, o que facilita a adesão ao uso constante da ferramenta.</p>"
+  },
+  {
+    "id": "BR 51 2024 000076 3",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Luciana Bonfim Jacó de Oliveira",
+      "Maria Salete Bessa Jorge",
+      "Paulo Henrique Mendes Maia"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "",
+    "dataDeposito": "",
+    "infoExtra": "<p>O diferencial da tecnologia reside na sua capacidade de transformar o aprendizado sobre saúde bucal em uma experiência lúdica e autônoma. Ao invés de ser apenas uma atividade passiva, o jogo promove o envolvimento das crianças por meio de desafios e atividades que reforçam hábitos de higiene bucal de maneira divertida.</p>"
+  },
+  {
+    "id": "BR512023003527-0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Alberto Luian de Lima Marques",
+      "domingos Bruno Sousa Santos",
+      "Gabriel Furtado Lins Melo",
+      "Thelmo Pontes de Araujo",
+      "Victor Wilker dos Santos de Oliveira"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Profissionais da saúde podem utilizar o SuperSeg para segmentar imagens médicas no formato DICOM\ncom relativa facilidade e rapidez. Pesquisas na área de Computação que utilizam Aprendizado de\nMáquina (Machine Learning - ML) também serão facilitadas pelo uso do SuperSeg, já que poderão obter\numa grande quantidade de máscaras (quantidade essa necessária à fase de aprendizado dos modelos\nde ML) de segmentação num menor espaço de tempo.</p>"
+  },
+  {
+    "id": "BR 51 2023 003243 3",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Danielle dos Santos Silva",
+      "douglas Araújo Da Silva",
+      "Jonas Nogueira Da Silva Neto",
+      "Maria Clara Mesquita Moura Ferreira",
+      "Matheus Monteiro Silveira",
+      "Michael Silva de Souza",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>A tecnologia visa habilitar que as empresas e instituições armazenarem e/ou divulgarem\ndados sem ferir as leis de privacidade, evitando que, mesmo que ocorram casos de vazamento de dados,\nestas sofram as sanções previstas na lei</p>"
+  },
+  {
+    "id": "BR 51 2023 003241 7",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Arthur Cordeiro Urbano",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>dentro deste contexto, a solução proposta habilita o uso de técnicas de anonimização em dispositivos IoTem hardwares com características heterogêneas.</p>"
+  },
+  {
+    "id": " BR 51 2023 003240 9",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Manoel Miqueias Maia",
+      "Rafael Paiva Arruda",
+      "Rommel Prata Regadas"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>A presente tecnologia possui como diferencial ser de fácil uso, baixo custo e de boa acessibilidade no tratamento de hematúria.</p>"
+  },
+  {
+    "id": "BR 51 2023 003235 2",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Arthur Cordeiro Urbano",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>dentro deste contexto, este trabalho apresenta a ferramenta chamada MonTh para Monitoramento Automatizado de Bases de Ameaças, coletando dados das bases VirusTotal, AbuseIPDB, Shodan, IBM X-Force e AlienVault, onde esta ferramenta habilita que as empresas/instituições possam se atualizar de forma automatizada sobre novas ameças que surgem através de indicativos valiosos sobre IPs e domínios suspeitos.</p>"
+  },
+  {
+    "id": "BR 51 2023 003232 8",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Leonardo Sampaio Rocha",
+      "Rhayane Da Silva Monteiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Obteve-se um algoritmo com 93% de acurácia, que é utilizado pela aplicação para que o usuário final possa consultar se o site é legítimo ou phishing. Os resultados reforçam a relevância do software proposto para identificar páginas da Web falsas.</p>"
+  },
+  {
+    "id": "BR 51 2023 001538 5",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Maria Salete Bessa Jorge",
+      "Paulo Henrique Mendes Maia",
+      "Sinara Alves Tomás"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>A tecnologia proporciona melhor atendimento aos solicitantes,\ntrazendo tratamento oportuno e otimização de custos por meio do\ngerenciamento das aquisições e do monitoramento dos estoques.</p>"
+  },
+  {
+    "id": "BR 51 2023 001383 8",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Ariel Lima de Carvalho Portela",
+      "Rafael de Almeida Menezes",
+      "Rafael Lopes Gomes",
+      "Wanderson Leonardo Costa"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará/ Rede Nacional de Ensino e Pesquisa",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>A tecnologia  visa  pesquisar a forma de anonimização de tráfego, as técnicas de seleção de características existentes e analisar o desempenho dos modelos de IA para realizar a identificação.</p>"
+  },
+  {
+    "id": "BR 51 2023 001380 3",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Matheus Monteiro Silveira",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>dentro deste contexto, foi desenvolvido o Permutation and Proprieties Maintenance Anonymization (PPM-Anon) para evitar problemas de vazamento de dados e violação de privacidade. O PPM-Anom gera dados sintéticos mantendo propriedades matemáticas, como média e desvio padrão, permutando os autovetores ao invés de gerar novos, o que evita a precisão erros nessas medidas.</p>"
+  },
+  {
+    "id": " BR 51 2023 001372 2",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Danielle dos Santos Silva",
+      "Matheus Monteiro Silveira",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Para lidar com este cenário, foi desenvolvida a solução Searchable Symmetric Encryption for Databases (SSE-DB) para proteger dados privados em bancos de dados de ambientes de nuvem, evitando problemas de vazamento de dados e violações de privacidade, enquanto permite aos usuários armazenar dados mantendo a funcionalidade para pesquisar palavras-chave em seu banco de dados criptografado. Nossa nova abordagem supera a limitação de processamento lento, permitindo uma maior eficácia ao considerar grandes bancos de dados e dados dinâmicos.</p>"
+  },
+  {
+    "id": " BR 51 2023 001370 6",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Luís Antônio Lima Solon",
+      "Manoel Miqueias Maia",
+      "Rommel Prata Regadas",
+      "Rômulo Augusto Da Silveira"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O aplicativo Disfunção Erétil no Consultório foi capaz de melhorar substancialmente os acertos nas condutas médicas iniciais e terapêuticas sobre o assunto Disfunção Erétil para os médicos NUCA. Esta importante melhora foi semelhante a capacidade dos médicos urologistas na condução clínica destes pacientes o aplicativo foi utilizado para responder casos clínicos de pacientes com disfunção erétil com sinais e sintomas perfeitamente descritos na história clínica</p>"
+  },
+  {
+    "id": "BR 51 2023 001369 2",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Gilvan Morais Neto Lira",
+      "Maria Salete Bessa Jorge",
+      "Paulo Henrique Mendes Maia"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>-</p>"
+  },
+  {
+    "id": "BR 51 2023 000819 2",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Haroldo Castro de Alcantara",
+      "Raquel Sampaio Florêncio"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O diferencial da tecnologia, é que a mesma é voltada para gestores em saúde pública, sejam coordenadores de saúde bucal, diretores de Centro de Especialidades Odontológicas(CEO), coordenadores de atenção primária em saúde, coordenadores de vigilância epidemiológica, coordenadores de vigilância sanitária, secretários municipais ou estaduais de saúde, pesquisadores em geral, profissionais de diversas áreas que tenham interesse no conhecimento do Humanizasus e em experiências exitosas ou ainda estudantes de graduação e pós graduação.</p>"
+  },
+  {
+    "id": " BR 51 2023 000544 4",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Diego Alysson Braga Moreira",
+      "Joaquim Celestino Júnior",
+      "Kílvia Letícia de Abreu Almeida",
+      "Levy Gurgel Chaves",
+      "Mateus Rodrigues Lima",
+      "Rafael Lopes Gomes",
+      "Samuel Façanha Câmara",
+      "Thiago Pinho Serpa"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará/ Rede Nacional de Ensino e Pesquisa",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Diagnosticar doenças Cardíacas e\nSepse (via Inteligência Artificial) em uma plataforma Big Data e adaptável ao paciente.</p>"
+  },
+  {
+    "id": "BR 51 2023 000543 6",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Diego Alysson Braga Moreira",
+      "Joaquim Celestino Júnior",
+      "Kílvia Letícia de Abreu Almeida",
+      "Levy Gurgel Chaves",
+      "Mateus Rodrigues Lima",
+      "Rafael Lopes Gomes",
+      "Samuel Façanha Câmara",
+      "Thiago Pinho Serpa"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará/ Rede Nacional de Ensino e Pesquisa",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Diagnosticar doenças Cardíacas e\nSepse (via Inteligência Artificial) em uma plataforma Big Data e adaptável ao paciente.</p>"
+  },
+  {
+    "id": " BR 51 2023 000542 8",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Diego Alysson Braga Moreira",
+      "Joaquim Celestino Júnior",
+      "Kílvia Letícia de Abreu Almeida",
+      "Levy Gurgel Chaves",
+      "Mateus Rodrigues Lima",
+      "Rafael Lopes Gomes",
+      "Samuel Façanha Câmara",
+      "Thiago Pinho Serpa"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará/ Rede Nacional de Ensino e Pesquisa",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Diagnosticar doenças Cardíacas e\nSepse (via Inteligência Artificial) em uma plataforma Big Data e adaptável ao paciente.</p>"
+  },
+  {
+    "id": "BR 51 2022 002696 1",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Adrilene Pessoa Da Fonseca",
+      "Arthur Cordeiro Urbano",
+      "denis Menezes de Sousa",
+      "Matheus Monteiro Silveira",
+      "Paulo Henrique Mendes Maia",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará/ Rede Nacional de Ensino e Pesquisa",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>a tecnologia permite a implantação de novos serviços de\nmonitoramento, como predição de demanda, tomada de decisão, análise de dados de\ntelemetria intra-banda, coexistência de protocolos, etc.</p>"
+  },
+  {
+    "id": "BR 51 2022 002465 9",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Lucas José Pereira de Araújo",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>A presente ferramenta visa capturar os pacotes do fluxo de rede de forma passiva, e mostrar, em tela e em tempo de execução, informações sobre os endereços de origem e destino dos pacotes, protocolos de transporte que estão seguindo, e, ao final da execução, será mostrado um relatório gerencial contendo os dados processados da última leitura.</p>"
+  },
+  {
+    "id": "BR 51 2022 002274 5",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Bruno Moreira Mapurunga",
+      "Manoel Miqueias Maia",
+      "Rommel Prata Regadas"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O aplicativo UroHPB foi capaz de aumentar a capacidade diagnóstica/terapêutica de médicos não urologistas sobre o assunto HPB.</p>"
+  },
+  {
+    "id": "BR 51 2022 002269 9",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Eduardo Estevam Pimentel Mosca",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>dentro deste contexto se apresenta uma análise dos concisa dos principais algoritmos de Hashing, apresentando consumo de processamento e memória com diferentes tipos de tamanhos de dados, visando chegar em uma solução sobre qual seria o melhor custo beneficio em termos gerais de utilização para os dispositivos</p>"
+  },
+  {
+    "id": "BR 51 2022 001318 5",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Francisco Alexandre Araújo Rocha",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará/ Instituto Federal de Educação, Ciência E Tecnologia do Ceará ",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O programa em questão é capaz de evitar a sobrecarga dos pontos de acesso bem como atribuir canais aos mesmos de forma a maximizar a performance da rede em ambientes inteligentes.</p>"
+  },
+  {
+    "id": "BR 51 2022 001300 2",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Francisco Edmar de Sousa Silva Pinheiro",
+      "Fábio Perdigão Vasconcelos",
+      "Otávio Augusto de Oliveira Lima Barra"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará/ Universidade Regional do Cariri",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O Sistema oferece interface para que usuários leigos possam realizar a\navaliação ambiental e de infraestrutura das praias. desta feita, tem por objetivo\nprincipal ser um componente de avaliação e integração de conformidades legais,\nposto a ausência de integração de elementos legais constituir-se em um desafio na\npreservação e conservação das áreas litorâneas. Pretende, deste modo, ser um\ncomponente de avaliação de desemprenho público ambiental.</p>"
+  },
+  {
+    "id": "BR 51 2022 001172 7",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Cassio Pinheiro Oliveira",
+      "Henrique Jorge Maia Costa",
+      "Herlenia Da Penha Oliveira Cavalcante",
+      "Ney Rômulo de Oliveira Paula",
+      "Paulo Iury Pinheiro Da Rocha"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará/ Fundação Universidade Federal do Piaui",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>-Através do invento do\nsoftware, será possível reunir todas as informações necessárias para o compartilhamento e\npreenchimento das informações de forma rápida e automatizada com toda a equipe envolvida no setor\nde gestão de risco e análise de diagnósticos em pacientes críticos internados em UTI, propiciando de\nforma ágil e assertiva o diagnóstico e tomada de condutas para o paciente.</p>"
+  },
+  {
+    "id": "BR 51 2022 000909 9",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Natália Aguiar Moraes Vitoriano",
+      "Thereza Maria Magalhães Moreira"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Seu desenvolvimento foi voltado para não haver necessidade de cadastro\nprévio, podendo o usuário acessar todos os módulos do curso com o perfil no modo\nvisitante, podendo assim, visualizar todas as aulas quantas vezes for necessário</p>"
+  },
+  {
+    "id": "BR 51 2022 000650 2",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Adriano Rodrigues de Sousa",
+      "Francisco José do Nascimento Júnior"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>-</p>"
+  },
+  {
+    "id": "BR 51 2022 000354 6",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Francisco Leon Torres de Sousa",
+      "Maria Salete Bessa Jorge"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O aplicativo funcionará como uma ferramenta de consulta e\ndiscussão com relação a metodologia Lean dentro dos centros de\nsaúde do município.</p>"
+  },
+  {
+    "id": "BR 51 2021 003166 0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Antônia Chirlene Evangelista Ferreira",
+      "Carliene Jorge Da Silva",
+      "José Rogério de Oliveira",
+      "Matheus Costa Granja",
+      "Regina Cláudia Pinheiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>É um jogo para computador destinado a alunos dos anos iniciais do Ensino Fundamental cujo objetivo é a aprendizagem da leitura, por isso, deverá ser aplicado na Educação.</p>"
+  },
+  {
+    "id": "BR 51 2021 003126 1",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Antônia Chirlene Evangelista Ferreira",
+      "Carliene Jorge Da Silva",
+      "José Rogério de Oliveira",
+      "Matheus Costa Granja",
+      "Regina Cláudia Pinheiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>É um aplicativo para celular destinado a alunos dos anos iniciais do Ensino Fundamental cujo objetivo é a aprendizagem da leitura, por isso, deverá ser aplicado na Educação.</p>"
+  },
+  {
+    "id": " BR 51 2021 002816 3",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Antônia Alcilânea de Assis Oliveira",
+      "Antônia Chirlene Evangelista Ferreira",
+      "Antônio Nilberto Gonçalves de Oliveira",
+      "Carliene Jorge Da Silva",
+      "Jamile Maria Da Costa Pedrosa",
+      "José Rogério de Oliveira",
+      "Matheus Costa Granja",
+      "Regina Cláudia Pinheiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>É um programa para computador, destinado a alunos dos anos iniciais do Ensino Fundamental, cujo objetivo é a aprendizagem da leitura, por isso, deverá ser aplicado na Educação. O jogo tem interpretação em LIBRAS e áudios para garantir maior acessibilidade.</p>"
+  },
+  {
+    "id": "BR 51 2021 001552 5",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Antonio Nilberto Gonçalves de Oliveira",
+      "Antônia Alcilânea de Assis Oliveira",
+      "Antônia Chirlene Evangelista Ferreira",
+      "Carliene Jorge Da Silva",
+      "Jamile Maria Da Costa Pedrosa",
+      "José Rogério de Oliveira",
+      "Matheus Costa Granja",
+      "Regina Cláudia Pinheiro"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>É um aplicativo para celular destinado a alunos dos anos iniciais do Ensino Fundamental cujo objetivo é a aprendizagem da leitura, por isso, deverá ser aplicado na Educação. O jogo tem interpretação em LIBRAS e áudios para garantir maior acessibilidade.</p>"
+  },
+  {
+    "id": "BR 51 2021 000604 6",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Harley Silveira Menezes",
+      "Manoel Miqueias Maia",
+      "Rommel Prata Regadas"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O software se mostrou útil e uma ferramenta relevante para auxiliar na interlocução médica, através da estruturação e padronização dos laudos de ultrassonografia, proporcionando melhorias no cuidado do paciente infantil com suspeita ou em acompanhamento de dilatação do trato urinário.</p>"
+  },
+  {
+    "id": " BR 51 2021 000307 1",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Cassio Pinheiro Oliveira",
+      "Francisco Sérgio Rangel de Paula Pessoa",
+      "José Ricardo de Figueiredo",
+      "Manoel Miqueias Maia"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O “HandC” operacionaliza em plataforma web e combina o armazenamento de dados informados pelo usuário e dados obtidos do ambiente por meio do LMC capaz de obter dados do ambiente percebendo as mínimas alterações motoras de pacientes cirróticos, além de apresentar dados que confirmam a prejudicação da motricidade de acordo com o progresso patológico. Software de coleta e acompanhamento desenvolvido para plataforma WEB utilizando framework Laravel 7 e Vue JS 3. Considera variáveis clínicas e obtém os dados da motricidade por meio de um sensor comercial denominado Leap Motion, conectado por porta USB.</p>"
+  },
+  {
+    "id": " BR 51 2020 002500 5",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Maria Raquel Rodrigues Carvalho",
+      "Maria Salete Bessa Jorge"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Contribui para o processo\nde tomada de decisão do gestor/gerentes referente as necessidades da gestão em saúde do\nSistema Único de Saúde. Tal tecnologia será utilizada exclusivamente pelos gestores do SUS,\ndesta forma seu acesso é restrito, necessitando de senha.</p>"
+  },
+  {
+    "id": "BR 51 2020 002234 0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Thiago Dias de Carvalho Quaresma Gama"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O aplicat9vo possui  quatro níveis desbloqueáveis pelo usuário (iniciante,\nintermediário, avançado e bônus), ocupa pouco espaço no aparelho celular (5,17 MB) e modo de\njogo off-line.</p>"
+  },
+  {
+    "id": "BR 51 2020 002212 0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Maria Cláudia Carneiro Pinto",
+      "Maria Salete Bessa Jorge"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>As pessoas que utilizarem o aplicativo terão\norientações sobre o cuidado, podendo evitar complicações.</p>"
+  },
+  {
+    "id": " BR 51 2020 002020 8",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Humberto de Holanda Madeira Barros",
+      "Manoel Miqueias Maia",
+      "Rommel Prata Regadas"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Essa tecnologia ajuda a agilizar o tratamento e diminui os riscos de infecções graves e insuficiência renal.</p>"
+  },
+  {
+    "id": "BR 51 2020 001816 5",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Dyego Henrique Leonel Oliveira",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Apresenta-se uma ferramenta com um modelo adaptável de previsão de rede para MISPs, que ajusta sazonalidade e tendência e remove os ciclos de erro na série temporal de acordo com o comportamento observado no tráfego de rede.</p>"
+  },
+  {
+    "id": "BR 51 2020 001794 0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Diego Alysson Moreira",
+      "Humberto Pires Marques",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>A ferramenta desenvolvida, chamada DAAI: detecção de Anomalias em Ambientes Inteligentes, visa, a partir do monitoramento do tráfego de rede, detectar de anomalias em ambientes inteligentes baseado em Inteligência Artificial (IA), gerando um perfil da rede e detectando possíveis anomalias através de um comportamento de tráfego fora do padrão previsto.</p>"
+  },
+  {
+    "id": "BR 51 2020 001793 2",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Marcus de Vasconcelos Diogo Silva",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Apresenta-se uma ferramenta de compressão para atuar nos microcontroladores, visando reduzir a quantidade de dados a serem transmitidos e, consequentemente, minimizar o consumo de energia dos microcontroladores nesses cenários.</p>"
+  },
+  {
+    "id": "BR 51 2019 002632 2",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Gabriel Galdino Da Silva",
+      "Joaquim Celestino Júnior",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O programa em questão é capaz de evitar a sobrecarga dos pontos de acesso bem como atribuir canais aos mesmos de forma a maximizar a performance da rede em ambientes inteligentes.</p>"
+  },
+  {
+    "id": "BR 51 2019 001834 6",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Amanda Maria domingos de Oliveira",
+      "dennys Leite Maia",
+      "Isis Ramona Medeiros Da Cunha",
+      "Joserlene Lima Pinheiro",
+      "José Veríssimo do Nascimento Filho",
+      "João Batista Carvalho Nunes",
+      "Maria Lucimara Rodrigues Da Silva Cruz"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará/ Universidade Federal do Rio Grande do Norte",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O Letra Livre 2.0 é uma aplicação Java para desktop e foi desenvolvida seguindo partes da metodologia SCRUM. Esta experiência mostra uma das vantagens em desenvolver recursos que estejam dentro da cultura livre, o que oportuniza, a outros desenvolvedores ou usuários, melhorá-los e adequá-los a outras realidades.</p>"
+  },
+  {
+    "id": "BR 51 2019 001504 5",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Francisco Sérgio Rangel de Paula Pessoa"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O app TRAT-C 2019 é uma ferramenta biotecnológica inédita, simples, de fácil utilização e eficiente na definição do melhor esquema terapêutico para HCVC servindo, também, de modelo para desenvolvimento de outros processos biotecnológicos baseados em cascatas algorítmicas para decisões terapêuticas.</p>"
+  },
+  {
+    "id": "BR 51 2019 001143 0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Francisco Wkerlyson Pereira Batista",
+      "Igor Lima Rodrigues",
+      "Maria Wilda Fernandes Felipe",
+      "Wosley Mendes Rocha"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>A vantagem da tecnologia permitiu empoderar os elaboradores de questão de um sistema para criação dos itens das provas com a passibilidade de exportação em formato GIFT, compatível com o Ambiente Virtual de Aprendizagem Moodle.\nOs mercados a serem atingidos são relacionados a todos que utilizam o Ambiente Moodle na criação de bancos de questões para aplicação de provas online para cursos a distância.</p>"
+  },
+  {
+    "id": "BR 51 2019 000446 9",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Amanda Maria domingos de Oliveira",
+      "Ana Cláudia Nunes Silva",
+      "Clésia Jordânia Nunes Da Costa",
+      "Danilo do Carmo de Souza",
+      "dennys Leite Maia",
+      "Débora Karoline Silva de Azevedo",
+      "Elvis Medeiros de Melo",
+      "Francisca Wellingda Leal Da Silva",
+      "Joserlene Lima Pinheiro",
+      "Marcilia Chagas Barreto",
+      "Maria Luziene Da Silva Azevedo Bandeira",
+      "Nassara Maia Cabral Cardoso Gomes",
+      "Nelson Ion de Oliveira",
+      "Paulo César Da Silva Batista",
+      "Rodolfo Araújo de Carvalho",
+      "Rodrigo Rodrigues Melo de Lima",
+      "Samuel Dantas Batista"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará/ Universidade Federal do Rio Grande do Norte",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Além do desenvolvimento do repositório para ajudar professores da Educação Básica a encontrar recursos educativos digitais para diversificar as estratégias de ensino de Matemática em sala de aula, a OBAMA intenciona formar docentes para a busca, utilização e integração dos OA em processos de ensino e aprendizagem.</p>"
+  },
+  {
+    "id": "BR 51 2018 000198 0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Diogo Aguiar Lima",
+      "Guilherme Lima Façanha",
+      "Mariela Inés Cortes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O sistema permite organizar, gerenciar e manter de forma segura e eficaz os dados cadastrais e acadêmicos dos discentes da Pós-Graduação da UECE.</p>"
+  },
+  {
+    "id": "BR 51 2017 001163 0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Francisco Leonardo Jales Martins",
+      "Joaquim Celestino Júnior"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>-</p>"
+  },
+  {
+    "id": "BR 51 2017 001162 1",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Daniel Sucupira Lima",
+      "Filipe Ferandes dos Santos Brasil de Matos",
+      "Fábio de Souza Cerqueira",
+      "Joaquim Celestino Júnior",
+      "José Henrique Brandao Neto",
+      "João Gonçalves Filho",
+      "Manuel Rui Pessoa de Paula",
+      "Silvio Roberto Martins Amarante"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>-</p>"
+  },
+  {
+    "id": "BR 51 2017 001161 3",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Joaquim Celestino Júnior",
+      "Tiago Portela de Souza"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>-</p>"
+  },
+  {
+    "id": "BR 51 2017 001160 5",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Jefferson Gomes de Alcântara",
+      "Joaquim Celestino Júnior"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>-</p>"
+  },
+  {
+    "id": " BR 51 2017 001159 1",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Bruno Lopes Alcântara Batista",
+      "Filipe Ferandes dos Santos Brasil de Matos",
+      "Joaquim Celestino Júnior",
+      "João Gonçalves Filho"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>-</p>"
+  },
+  {
+    "id": "BR 51 2017 000815 9",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "André Acciolly Nogueira Machado",
+      "André Alves Maia",
+      "Christina Pacheco Santos Martin",
+      "Francisco Sergio Lopes Vasconcelos Filho",
+      "João Filho Freire Lopes",
+      "Paula Matias Soares",
+      "Roberta Cristina Da Rocha E Silva",
+      "Welton Daniel Nogueira Godinho"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>É um aplicativo que permite ao usuário efetuar avaliações de seu biotipo e percentual de gordura corporal através de seus dados anatômicos.</p>"
+  },
+  {
+    "id": " BR 51 2016 001737 6",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "João Paulo Camelo Menezes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>-</p>"
+  },
+  {
+    "id": "BR 51 2015 001228 2",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Antonio Almir Araujo Neto",
+      "Christina Pacheco Santos Martin",
+      "Jhony Lucas Cavalcante Da Silva",
+      "Juliana Osório Alves",
+      "Milca Magalhães Dias de Carvalho Soares",
+      "Renato Pedrosa Vasconcelos",
+      "Samuel Gonçalves Lopes",
+      "Stela Mirla Da Silva Felipe",
+      "Vânia Marilande Ceccatto",
+      "Willyane de Paiva Silva"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Com o programa Gene Collector, o usuário pode reunir diversas informações sobre um conjunto de genes, como localização, símbolo oficial, sinônimos, nome oficial e tipo de produto gênico, com a opção de buscar os dados nos bancos de dados NCBI gene, Ensembl ou ambos. Uma síntese de alguns dados obtidos também é produzida para fornecer uma visão geral do conjunto de genes avaliado.</p>"
+  },
+  {
+    "id": "BR 51 2015 001227 4",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Hristina Pacheco Santos Martin",
+      "Juliana Osório Alves",
+      "Lucas Lima Vieira",
+      "Paula Matias Soares",
+      "Stela Mirla Da Silva Felipe",
+      "Vânia Marilande Ceccatto",
+      "Ângelo Filipe do Amaral Acácio"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>ua utilização propõe facilitar o aprendizado e tornar o ensino\nmais dinâmico, aumentar o interesse pela temática Biologia Molecular, auxiliando, dessa\nforma, o processo de ensino-aprendizagem.</p>"
+  },
+  {
+    "id": "BR 51 2015 001112 0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Luanna Alves Falcão",
+      "Maria Wilda Fernandes Felipe",
+      "Pablo Bruno de Moura Nóbrega"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Alinhar as necessidades de negócio às boas práticas de sustentabilidade ambiental, através da economia de recursos naturais; permitir o gerenciamento de todas as informações e inscrições de um evento em um ambiente on-line centralizado; oferecer um ambiente computacional único e padronizado para o gerenciamento de eventos abertos ao público, possibilitando personalizar automaticamente o skin (esquema de cores) das páginas, fontes, tabelas e imagens; gerenciar inscrições em palestras, mini-cursos, oficinas, seminários e submissão de trabalhos científicos de forma eletrônica nos eventos; e permitir a emissão de certificados on-line, a geração automática de anais do evento, a visualização de relatórios, etc</p>"
+  },
+  {
+    "id": "12679-2",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Antono Germano Magalhães Junior",
+      "Antônio Márcio Sousa Martins",
+      "Hélio Augusto Sabóia Moura",
+      "Igor Lima Rodrigues",
+      "Marcius Gomes Brandão",
+      "Maria Wilda Fernandes Felipe"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>o sistema funciona através de modulos, que são gerenciados da seguinte forma: Gestão de instrumentos de avaliação; Audiência; Relatórios e Análises; e Coleta de Dados; e dispor de um aplicativo capaz de gerenciar processos de avaliação genéricos, com aplicabilidade a diversos contextos que demandem avaliação.</p>"
+  },
+  {
+    "id": "12383-2",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Luiz Eduardo dos Santos Tavares",
+      "Maria Clara Sidou Monteiro",
+      "Rodrigo Gato Távora"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Todo o processo é respaldado pela segurança dos dados oferecida pela\nRede, além do termo de confidencialidade que deve ser assinado\npela empresa, assegurando ao pesquisador que as informações\nsobre suas pesquisas não serão divulgadas.</p>"
+  },
+  {
+    "id": "08860-6",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Diana Magalhães de Oliveira",
+      "Italo Moreira Campelo Maia",
+      "Marcilia Pinheiro Da Costa",
+      "Michely Correia Diniz",
+      "Raniery Memória Alves",
+      "Átila Correia Cunha"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>-</p>"
+  },
+  {
+    "id": " 08859-0",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Ana Luiza Bessa de Paula Barros",
+      "Diana Magalhães de Oliveira",
+      "Gerardo Valdisio Rodrigues Viana",
+      "Italo Moreira Campelo Maia",
+      "Tariana Mara Fernandes Batista"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>-</p>"
+  },
+  {
+    "id": "BR 51 2019 002598 9",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Diego Alysson Braga Moreira",
+      "Joaquim Celestino Júnior",
+      "Rafael Lopes Gomes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>Como resultado das classificações de um período de sinais dos pacientes, armazenados em diferentes blocos, têm-se o estado de saúde referente às anomalias observadas, caso o paciente está totalmente saudável ou com alguma anomalia. Podem ser verificados um único bloco, ou um conjunto de blocos de cada paciente.</p>"
+  },
+  {
+    "id": " BR 51 2019 001848 6",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Amanda Maria domingos de Oliveira",
+      "dennys Leite Maia",
+      "Dilberto Chaves Lima",
+      "Fabiana de Souza Marinheiro",
+      "Gardner de Andrade Arrais",
+      "Gutemberg dos Santos Chaves",
+      "Isis Ramona Medeiros Da Cunha",
+      "Jales Anderson de Assis Monteiro",
+      "Jean Lopes Ordéas Nascimento",
+      "Kamilla de Oliveira Pinheiro",
+      "Manoel Messias de Barros Junior",
+      "Maria Clara Souza de Fontes Pereira",
+      "Priscila Lauren dos Santos Linhares",
+      "Renan Bezerra Kimura",
+      "Rodolfo Araújo de Carvalho",
+      "Rodrigo Rodrigues Melo de Lima"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará/ Universidade Federal do Rio Grande do Norte",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O software educativo se caracteriza pelo uso de operações matemáticas aditivas e multiplicativas em três atividades que exploram o contexto de brinquedos clássicos, além de ter sido desenvolvido com a ferramenta Gdevelop.</p>"
+  },
+  {
+    "id": " BR 51 2019 001845 1",
+    "nome": "",
+    "resumo": "",
+    "inventores": [
+      "Amanda Maria domingos de Oliveira",
+      "Carlos Matheus Souza Viana",
+      "dennys Leite Maia",
+      "Débora Karoline Silva de Azevedo",
+      "Francisca Wellingda Leal Da Silva",
+      "Gabriel Vieira Barreto",
+      "Gardner de Andrade Arrais",
+      "Gelly Viana Mota",
+      "Hagliberto Alves de Oliveira",
+      "Henrique Maraschin Granja",
+      "Lucas de Medeiros Ferreira",
+      "Luís Eduardo Anunciado Silva",
+      "Mikaella Baracho Ferreira",
+      "Rafaela de Fatima Santos Da Silva",
+      "Samuel Dantas Batista",
+      "Thaian Assis de Moraes"
+    ],
+    "instituicao": "Fundação Universidade Estadual do Ceará/ Universidade Federal do Rio Grande do Norte",
+    "natureza": "-",
+    "dataDeposito": "",
+    "infoExtra": "<p>O recurso tem todo o seu conteúdo informativo apresentado em duas línguas: Português e Libras.</p>"
+  }
 ]

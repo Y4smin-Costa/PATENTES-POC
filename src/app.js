@@ -123,30 +123,28 @@ document.addEventListener('DOMContentLoaded', () => {
     botoes.forEach(botao => {
       botao.classList.remove('ativa');
       botao.onclick = () => {
-        const chave = botao.dataset.area;
+  const chave = botao.dataset.area;
 
-        if (abaAtual === 'patentes') {
-          // Controle dos tipos de patentes selecionados
-          if (tiposSelecionados.has(chave)) {
-            tiposSelecionados.delete(chave);
-            botao.classList.remove('ativa');
-          } else {
-            tiposSelecionados.add(chave);
-            botao.classList.add('ativa');
-          }
-        } else {
-          // Controle das áreas de laboratórios selecionadas
-          if (areasSelecionadas.has(chave)) {
-            areasSelecionadas.delete(chave);
-            botao.classList.remove('ativa');
-          } else {
-            areasSelecionadas.add(chave);
-            botao.classList.add('ativa');
-          }
-        }
+  const container = abaAtual === 'patentes' ? filtrosPatentes : filtrosLaboratorios;
+  const botoes = container.querySelectorAll('.grupo-areas button');
 
-        mostrarResultados();
-      };
+  // Remove todas as seleções anteriores
+  botoes.forEach(b => b.classList.remove('ativa'));
+
+  if (abaAtual === 'patentes') {
+    tiposSelecionados.clear();       // limpa o Set
+    tiposSelecionados.add(chave);   // adiciona o novo
+  } else {
+    areasSelecionadas.clear();
+    areasSelecionadas.add(chave);
+  }
+
+  // Marca o botão clicado como ativo
+  botao.classList.add('ativa');
+
+  mostrarResultados();
+};
+
     });
   }
 
@@ -170,18 +168,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Atualiza o Set de natureza ao marcar/desmarcar checkboxes
   naturezaCheckboxes.forEach(cb => {
-    cb.addEventListener('change', () => {
-      naturezaSelecionadas.clear();
-      naturezaCheckboxes.forEach(natCb => {
-        if (natCb.checked) naturezaSelecionadas.add(natCb.value.toLowerCase());
+  cb.addEventListener('change', () => {
+    // Se o usuário marcou esse, desmarque todos os outros
+    if (cb.checked) {
+      naturezaCheckboxes.forEach(outroCb => {
+        if (outroCb !== cb) outroCb.checked = false;
       });
-      mostrarResultados();
-    });
+
+      naturezaSelecionadas.clear();
+      naturezaSelecionadas.add(cb.value.toLowerCase());
+
+    } else {
+      // Se desmarcou, limpa tudo
+      naturezaSelecionadas.clear();
+    }
+
+    mostrarResultados();
   });
+});
+
 
   // Atualiza textoBusca enquanto usuário digita
   searchBar.addEventListener('input', (e) => {
-    textoBusca = e.target.value.trim().toLowerCase();
+    textoBusca = normalizarTexto(e.target.value);
     mostrarResultados();
   });
 
@@ -191,13 +200,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const naturezaItem = item.natureza ? item.natureza.toLowerCase() : '';
     return naturezaSelecionadas.has(naturezaItem);
   }
+  //erros de digitação
+  function normalizarTexto(texto) {
+  return texto
+    .normalize("NFD") // Normaliza caracteres com acento para forma decomponível
+    .replace(/[\u0300-\u036f]/g, "") // Remove marcas de acento
+    .toLowerCase()
+    .trim();
+}
 
   // Filtra por texto (nome ou natureza)
   function filtrarPorTexto(item) {
     if (!textoBusca) return true;
-    const nome = item.nome ? item.nome.toLowerCase() : '';
-    const natureza = item.natureza ? item.natureza.toLowerCase() : '';
-    return nome.includes(textoBusca) || natureza.includes(textoBusca);
+    const nome = item.nome ? normalizarTexto(item.nome) : '';
+    const natureza = item.natureza ? normalizarTexto(item.natureza) : '';
+    const busca = normalizarTexto(textoBusca);
+    return nome.includes(busca) || natureza.includes(busca);
   }
 
   // Mostra os resultados filtrados na tela
