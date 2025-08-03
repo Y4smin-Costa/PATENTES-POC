@@ -91,7 +91,7 @@
     const query = getQueryParam('q');
     if (query) {
       searchInput.value = query;
-      // Chama a função que atualiza os resultados (você deve ter essa função no app.js)
+      // Chama a função que atualiza os resultados
       if (typeof mostrarResultados === 'function') {
         mostrarResultados();
       }
@@ -116,7 +116,12 @@
       }
     });
   });
+
+//rodapé logo em seguida ao script
 </script>
+<footer class="rodape">
+<p>@AGIN - Todos os Direitos Protegidos</p>
+</footer>
 
 <script src="app.js"></script>
 </body>

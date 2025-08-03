@@ -296,11 +296,58 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
   }
+  // Normaliza o nome para aparecer no front
+  function capitalizarNome(texto) {
+  if (!texto || typeof texto !== 'string') return '';
+
+  //excessões 
+  const palavrasMinusculas = new Set([
+    'de', 'da', 'do', 'das', 'dos',
+    'e', 'em', 'com', 'para', 'por', 'a', 'o', 'as', 'os'
+  ]);
+
+   // Se tiver " - " (com espaço): capitaliza só antes
+  if (texto.includes(' - ')) {
+    const partes = texto.split(' - ');
+    const antes = partes[0];
+    const depois = partes.slice(1).join(' - '); // preserva se houver mais de um " - "
+
+    const capitalizadoAntes = antes
+      .toLowerCase()
+      .split(' ')
+      .map((palavra, i) => {
+        return (i === 0 || !palavrasMinusculas.has(palavra))
+          ? palavra.charAt(0).toUpperCase() + palavra.slice(1)
+          : palavra;
+      })
+      .join(' ');
+
+    return `${capitalizadoAntes} - ${depois}`;
+  }
+
+  // Se tiver hífen SEM espaço (ex: lab-val), não altera
+  if (texto.includes('-')) {
+    return texto;
+  }
+
+  // Capitaliza nome inteiro, respeitando preposições
+  return texto
+    .toLowerCase()
+    .split(' ')
+    .map((palavra, i) => {
+      return (i === 0 || !palavrasMinusculas.has(palavra))
+        ? palavra.charAt(0).toUpperCase() + palavra.slice(1)
+        : palavra;
+    })
+    .join(' ');
+}
+
+
 
   // Cria o elemento li para o resultado (link para detalhe)
   function criarItemResultado(item) {
     const li = document.createElement('li');
-    li.textContent = item.nome;
+    li.textContent = capitalizarNome(item.nome); // Isso formatará o texto exibido, mesmo que o JSON tenha "LABORATORIO DE Matematica" ou qualquer outra variação de caixa.
     li.classList.add('item');
     li.style.cursor = 'pointer';
 

@@ -103,20 +103,37 @@
       return null;
     }
 
-    /**
-     * Gera o HTML para exibir os detalhes do item encontrado
-     * Adicionado aqui suporte completo ao novo modelo de patentes
-     * @param {string} tipo
-     * @param {object} dados
-     * @returns {string}
-     */
+// faormata os nomes das patentes e labs
+function formatarNomeFrase(nome) {
+  if (!nome) return '';
+
+  // Divide em duas partes pelo hífen principal (o último hífen com espaços ao redor)
+  const partes = nome.split(/\s-\s/);
+
+  // Parte antes do hífen principal
+  const antes = partes[0].split(' ').map(palavra => {
+    // Se a palavra tem hífen interno, mantém ela como está
+    if (palavra.includes('-')) return palavra;
+
+    // Capitaliza a palavra (primeira letra maiúscula, resto minúsculo)
+    return palavra.charAt(0).toUpperCase() + palavra.slice(1).toLowerCase();
+  }).join(' ');
+
+  // Parte depois do hífen principal (sigla)
+  let depois = partes[1] ? partes[1].toUpperCase() : '';
+
+  return depois ? `${antes} - ${depois}` : antes;
+}
+
+// essa função mostra as informações na tela, na ordem que está aqui
     function montarHtmlDetalhe(tipo, dados) {
       const inventores = Array.isArray(dados.inventores) ? dados.inventores.join(', ') : null;
       const temResumo = dados.resumo || dados.descricao;
 
       return `
         <a href="menubusca.html" class="voltar">← Voltar Para Página de Pesquisa</a>
-        <h1>${dados.nome || dados.titulo || 'Sem nome'}</h1>
+        <h1>${formatarNomeFrase(dados.nome || dados.titulo || 'Sem nome')}</h1>
+        
         <p><strong>Tipo:</strong> ${tipo}</p>
         <p><strong>Natureza:</strong> ${dados.natureza || dados.area || 'Não informado'}</p>
         ${dados.status ? `<p><strong>Status:</strong> ${dados.status}</p>` : ''}

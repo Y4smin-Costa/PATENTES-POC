@@ -308,6 +308,17 @@ header nav a:hover {
   background-color: #ede8fb;
   cursor: pointer;
 }
+ /* rodape simples*/
+.rodape {
+  background-color: #4e3c7a; /* Cor do rodape */
+  color: white;              /* Cor do texto */
+  text-align: center;
+  padding: 1rem 2vw;
+  font-size: clamp(14px, 1.2vw, 16px);
+  font-weight: 500;
+  margin-top: clamp(40px, 5vw, 60px);
+  border-top: 4px solid #ff9f43; /* estilo */
+}
 
 /* Responsividade extra para mobile */
 @media (max-width: 480px) {

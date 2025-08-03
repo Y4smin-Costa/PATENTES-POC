@@ -616,7 +616,7 @@
   },
   {
     "id": "BR 10 2021 013335 0",
-    "nome": "Sistema de Teste Comportamental Exploratório Automatizado Para Avaliação Farmacológica Préclínica- Sistex",
+    "nome": "Sistema de Teste Comportamental Exploratório Automatizado Para Avaliação Farmacológica Préclínica - Sistex",
     "resumo": "Um sistema de teste comportamental exploratório, com aplicação na área de biotecnologia\nanimal visando a automatização de processos de avaliação experimental do comportamento in\nvivo. Trata-se de um protótipo usado para avaliar modelos de animais roedores desenvolvido para\naplicação laboratorial (pesquisa). O foco de aplicação do equipamento são centros de pesquisas\ncom experimentação animal para realizar a coleta de dados de forma automatizada e favorável\na segurança e precisão dos dados. O modelo consiste em um sistema automatizado composto\npor uma caixa e dispositivos eletrônicos, para recolher informações e monitorar comportamento\nexploratório através de uma câmera com sensores de temperatura, modo noturno e diurno. O\nsistema é capaz de quantificar o deslocamento do animal em quadrantes simulados artificialmente\ndentro de um determinado espaço físico da caixa. ",
     "inventores": [
       "Jefferson Pacheco Amaral Fortes",
