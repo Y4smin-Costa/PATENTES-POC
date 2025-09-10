@@ -2,7 +2,7 @@
 // ATENÇÃO: Mudança crítica!
 // Todas as ocorrências visuais de "Patente(s)" devem ser exibidas como "Tecnologia(s)" para o usuário.
 // Não altere variáveis internas, apenas garanta que no front end (botões, títulos, filtros, mensagens, etc.)
-// o termo "Tecnologia" apareça no lugar de "Patente".
+// o termo "Tecnologia" apareça no lugar de "Patente". teste
 // =============================
 
 'use strict';
