@@ -308,16 +308,56 @@ header nav a:hover {
   background-color: #ede8fb;
   cursor: pointer;
 }
- /* rodape simples*/
+/* rodape*/
+/* Rodapé menor e com cor roxa exata do Tailwind (bg-purple-900) */
 .rodape {
-  background-color: #4e3c7a; /* Cor do rodape */
-  color: white;              /* Cor do texto */
+  background-color:  #3a2360;
+  color: #ffffff;
+  padding: 1.5rem 1rem; /* Menor espaçamento vertical */
+  margin-top: 3rem;
+  font-size: 0.875rem; /* Tamanho de texto reduzido */
+}
+
+/* Container centralizado e responsivo */
+.rodape-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
   text-align: center;
-  padding: 1rem 2vw;
-  font-size: clamp(14px, 1.2vw, 16px);
-  font-weight: 500;
-  margin-top: clamp(40px, 5vw, 60px);
-  border-top: 4px solid #ff9f43; /* estilo */
+}
+
+@media (min-width: 768px) {
+  .rodape-container {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+/* Logo reduzida */
+.rodape-logo {
+  height: 73px;           /* Reduz ainda mais a altura */
+  width: auto;            /* Mantém proporção */
+  max-width: 190px;       /* Limita largura máxima, mesmo que a imagem seja grande */
+  display: block;         /* Evita espaços extras em linha */
+}
+
+
+/* Seções */
+.rodape-info,
+.rodape-contato {
+  max-width: 500px;
+}
+
+/* Título da seção de contato */
+.rodape-contato h4 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
 }
 
 /* Responsividade extra para mobile */

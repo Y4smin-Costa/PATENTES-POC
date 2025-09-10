@@ -10,7 +10,7 @@
     "natureza": "",
     "vinculado": "",
     "horario": "",
-    "parcerias": "",
+    "parcerias": "Secretaria Municipal da Saúde de Fortaleza Istituto Superiore di Sanità (ISS) de Roma/Italia Departamento de Saúde Indígena do Ceará Universidade de Heidelberg Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) Fundação Cearense de Apoio ao Desenvolvimento Científico e Tecnológico (FUNCAP)",
     "infraestrutura": "",
     "tags": "",
     "id": "eco-bio-social"
@@ -32,54 +32,6 @@
     "id": "laboratorio-de-seguridade-social-e-servico-social---lassoss"
   },
   {
-    "nome": "Laboratório de Pesquisas e Estudos em Serviço Social(LAPESS)",
-    "descricao": "Iniciação Científica(IC UECE) Pró-Reitoria de Assuntos Estudantis(PRAE)",
-    "coordenacao": "",
-    "area": "ciências sociais aplicadas",
-    "email": "",
-    "telefone": "",
-    "site": "",
-    "natureza": "",
-    "vinculado": "",
-    "horario": "",
-    "parcerias": "",
-    "infraestrutura": "",
-    "tags": "",
-    "id": "laboratorio-de-pesquisas-e-estudos-em-servico-sociallapess"
-  },
-  {
-    "nome": "Laboratório de Seguridade Social e Serviço Social (LASSOS)",
-    "descricao": "",
-    "coordenacao": "",
-    "area": "ciências sociais aplicadas",
-    "email": "",
-    "telefone": "",
-    "site": "",
-    "natureza": "",
-    "vinculado": "",
-    "horario": "",
-    "parcerias": "",
-    "infraestrutura": "",
-    "tags": "",
-    "id": "laboratorio-de-seguridade-social-e-servico-social-lassos"
-  },
-  {
-    "nome": "Centro de Estudos do Trabalho e Ontologia do Ser Social (CETROS)",
-    "descricao": "",
-    "coordenacao": "",
-    "area": "ciências sociais aplicadas",
-    "email": "aparecida.souza@aluno.uece.br",
-    "telefone": "(85) 3101-9937",
-    "site": "www.uece.br/",
-    "natureza": "Pesquisa",
-    "vinculado": "Centro de Estudos Sociais Aplicados",
-    "horario": "Segunda a sexta-feira, 08h às 18h",
-    "parcerias": "",
-    "infraestrutura": "",
-    "tags": "",
-    "id": "centro-de-estudos-do-trabalho-e-ontologia-do-ser-social-cetros"
-  },
-  {
     "nome": "LABORATÓRIO DE PESQUISAS E ESTUDOS EM SERVIÇO SOCIAL - LAPESS",
     "descricao": "O Laboratório de Pesquisas e Estudos em Serviço Social (LAPESS) é um centro de excelência dedicado à promoção de atividades de ensino, pesquisa e extensão nas áreas cruciais do Serviço Social. Concentra seus esforços no estudo das interseções entre Estado e sociedade, na análise da “questão social”, na formação profissional e nas teorias críticas que fundamentam a prática do assistente social. No âmbito do ensino, desenvolve uma variedade de atividades, incluindo grupos de estudo, círculos de debates, palestras, além de ministrar aulas tanto na graduação quanto na pós-graduação.No campo da pesquisa, elabora, acompanha e executa projetos relevantes para nossos interesses, construindo um banco de dados robusto sobre as temáticas investigadas. Na extensão, garante um diálogo fecundo entre universidade e sociedade, promovendo uma série de eventos como seminários, encontros, cursos, palestras e oficinas, que funcionam como espaços de divulgação e socialização das atividades do grupo, sempre garantindo o tripé ensino, pesquisa e extensão.",
     "coordenacao": "Profª. Drª. Cristiane Porfírio de Oliveira do Rio (Lattes -  http://lattes.cnpq.br/9564224747396486)",
@@ -90,8 +42,8 @@
     "natureza": "Misto",
     "vinculado": "Centro de Estudos Sociais Aplicados (CESA)",
     "horario": "Segunda a sexta-feira, das 08h às 18h",
-    "parcerias": "",
-    "infraestrutura": "",
+    "parcerias": "Mestrado Acadêmico em Serviço Social (MASS) Instituto de Estudos e Pesquisas do Movimento Operário (IMO)",
+    "infraestrutura": "O laboratório dispõe de equipamentos e biblioteca específica e mobiliários essenciais para a realização de suas atividades.",
     "tags": "",
     "id": "laboratorio-de-pesquisas-e-estudos-em-servico-social---lapess"
   },
@@ -113,7 +65,7 @@
   },
   {
     "nome": "Laboratório de Seguridade Social",
-    "descricao": "O curso de Serviço Social O mestrado em Serviço Social, Trabalho e Questão Social",
+    "descricao": "",
     "coordenacao": "",
     "area": "ciências sociais aplicadas",
     "email": "samilly.moreira@uece.br",
@@ -123,7 +75,7 @@
     "vinculado": "Centro de Estudos Sociais Aplicados (CESA)",
     "horario": "Segunda a sexta-feira, das 13h às 18h",
     "parcerias": "",
-    "infraestrutura": "",
+    "infraestrutura": "O laboratório dispõe de equipamentos e mobiliários essenciais para a realização de suas atividades.",
     "tags": "",
     "id": "laboratorio-de-seguridade-social"
   }

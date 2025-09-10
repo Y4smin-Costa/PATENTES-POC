@@ -11,16 +11,9 @@
  <header>
     <div class="header-inner">
       <div class="logo-area">
-        <img src="imagens/Marca_aginhorizontal_branca.png" style="height: 65px; width: auto;" />
-        
-      </div>
-      <nav>
-        <a href="../index.html">Home</a>
-        <a href="em-construcao.html">Sobre</a>
-        <a href="em-construcao.html">Serviços</a>
-        <a href="em-construcao.html">Contato</a>
-      </nav>
-    </div>
+        <a href="../index.html">
+  <img src="imagens/Marca_aginhorizontal_branca.png" style="height: 65px; width: auto;" />
+</a>  
   </header>
 
 <div class="container">
@@ -30,7 +23,7 @@
     <button class="botao-buscar" id="botao-buscar">&#128269;</button>
   </div>
 
-  <p class="legenda">Você pode navegar usando os filtros específicos ou fazer uma busca geral utilizando palavras-chave.</p>
+  <p class="legenda">Encontre o que procura de forma simples! Digite aqui uma palavra-chave para localizar tecnologias ou laboratórios da Universidade. Exemplos: “energia solar”, “biotecnologia”, “laboratório de química”.</p>
 
   <div class="abas">
     <button class="aba ativa" data-tipo="patentes">Patentes</button>
@@ -39,12 +32,6 @@
 
   <!-- Filtros Patentes -->
   <div class="filtros ativo" id="filtros-patentes">
-    <div class="grupo-natureza">
-      <span>Natureza:</span>
-      <label><input type="checkbox" value="concedida" class="natureza-checkbox"> Concedida</label>
-      <label><input type="checkbox" value="em análise" class="natureza-checkbox"> Em análise</label>
-      <label><input type="checkbox" value="domínio público" class="natureza-checkbox"> Domínio Público</label>
-    </div>
     <div class="grupo-areas" id="patentes-areas">
       <button data-area="patentes-utilidade">PATENTES - MODELO DE UTILIDADE </button>
       <button data-area="patentes-invencao">PATENTES - INVENÇÃO</button>
@@ -120,8 +107,20 @@
 //rodapé logo em seguida ao script
 </script>
 <footer class="rodape">
-<p>@AGIN - Todos os Direitos Protegidos</p>
+  <div class="rodape-container">
+    <div class="rodape-info">
+     <img src="imagens/Marca_aginhorizontal_branca.png" alt="Logo AGIN" class="rodape-logo" />
+      <p><strong>Agência de Inovação da UECE © 2025. Todos os direitos reservados.</strong></p>
+      <p>Endereço: Av. Dr. Silas Munguba - Serrinha, Fortaleza - CE, 60714-903.</p>
+    </div>
+    <div class="rodape-contato">
+      <h4>Contato</h4>
+      <p>Email: agin@uece.br</p>
+      <p>Telefone: (85) 3101-9978</p>
+    </div>
+  </div>
 </footer>
+
 
 <script src="app.js"></script>
 </body>
